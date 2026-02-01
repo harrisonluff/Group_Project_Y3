@@ -22,6 +22,15 @@ outputs/*
 !outputs/final/**
 
 # Optional: keep folder structure even if empty
+!raw/.gitkeep
+!cleaned/.gitkeep
+!src/.gitkeep
+
+!notebooks/.gitkeep
+!notebooks/cleaning/.gitkeep
+!notebooks/analysis/.gitkeep
+!notebooks/final/.gitkeep
+
 !outputs/.gitkeep
 !outputs/final/.gitkeep
 
