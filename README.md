@@ -4,15 +4,25 @@ This repo contains the raw data, cleaned data, reusable code, and notebooks for 
 
 ## Folder Structure:
 ├── raw/ # Raw CSVs (read-only once added)
+
 ├── cleaned/ # Cleaned/processed datasets
+
 ├── src/ # Reusable Python code (helpers, cleaning functions, etc.)
+
 ├── notebooks/ # Working notebooks
+
 │ └── cleaning/ # Notebooks generating cleaned datasets
+
 │ └── analysis/ # Individual analysis notebooks (regressions, tests etc.) - work in these for now.
+
 │ └── final/ # Consolidated “final” notebooks for submission
+
 ├── outputs/ # Working outputs (not committed)
+
 │ └── final/ # Consolidated “final” outputs for submission (committed)
+
 ├── README.md
+
 └── .gitignore
 
 ## Where To Put Files:
