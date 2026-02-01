@@ -126,19 +126,21 @@ This also gives 'repo_root' which can be used for saving cleaned data/outputs, e
 - Push to 'dev' (do not push to 'main'!). Use a short descriptive commit mesages (e.g. "Add regression for X", not "update"). 
 - If you make changes that might affect others (e.g. shared code, new version of cleaned data), notify the group.
 - If VS Code offers to enable auto-sync (auto-fetch/pull) - click **yes**. This helps prevent working on out of date dev branch. This does not auotamtically push your changes, you still choose when to commit and push.
+- The first time you commit code it should ask to add your email and username to Git. If so, use the private email address GitHub provides in your account rather than your own email, protects your email from being scraped from GitHub.
 
 ## Setup:
-1) Create a GitHub account, and share username with group so you can be added to repo.
+1) Create a GitHub account, and share username with group so you can be added to repo. (Note: if you want access post-uni use personal email)
 2) Install Git (version control system used by GitHub). Default install options are fine.
 3) Within VS Code:
   - Version control icon on left vertical toolbar 
   - Clone repository
   - Select folder to clone into on your system. Note, the repo will download into a folder called 'Group_Project_Y3/' inside the folder you select.
-  - If needed, open the cloned folder in VS Code
+  - If needed, open the cloned folder in VS Code.
 4) Within PyCharm:
   - I have no idea but I'm sure you can work it out Sami
 5) Switch to dev branch:
   - After cloning make sure you are working on dev branch (not main).
   - In VS Code, click the branch name in bottom-left and select dev.
+6) Sign up for GitHub education: https://github.com/settings/education/benefits (so I can make repo private and keep permissions -> this means we have less concerns about data privacy if we get approved for data).
 
 **If there is a merge conflict, do not click buttons randomly. Tell the group which file has a conflict and we can resolve together. Ideally, as long as no one is working on the same notebook at the same time, we should be okay.**
