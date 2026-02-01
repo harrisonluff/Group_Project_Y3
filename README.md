@@ -58,7 +58,7 @@ This repo contains the raw data, cleaned data, reusable code, and notebooks for 
 ### 'notebooks/cleaning'
 - Notebooks for processing raw data to cleaned.
 - Within cleaning, recommended naming:
-  - '00_cleaning_<dataset>.ipynb'
+  - '00_cleaning_<dataset_1>.ipynb'
   - '01_cleaning_<dataset_2>.ipynb'
   - etc.
 - i.e. each index refers to a topic/dataset, if multiple files for that topic are needed can be extended to 00_00, 00_01 etc.
