@@ -111,7 +111,7 @@ This relies on cloning the repo, such that .git/ folder exists at root. I think 
 
 After this code you can safely run: from src.paths import ...
 
-This also gives 'repo_root' which can be used for saving cleaned data/outputs, e.g. path for cleaned is '{repo_root}/cleaned'
+This also gives 'repo_root' which can be used for saving cleaned data/outputs, e.g. path for cleaned is '{str(repo_root)}/cleaned'
 
 ## Environment:
 - Should not be an issue ideally, but if we do get any issues of code not running / running differently, let me know and can sort out an enivronment specification.
