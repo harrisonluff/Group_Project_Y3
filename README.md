@@ -48,9 +48,9 @@ This repo contains the raw data, cleaned data, reusable code, and notebooks for 
 - Notebooks should run top-to-bottom without manual steps - i.e. before committing, restart kernel and run all to ensure it works.
 - When working together / editing someone else's notebook:
   - **If you need to modify a notebook owned by someone else** Either
-    (a) message them and make change directly in their notebook, or
-    (b) duplicate the notebook under your prefix/name, and make the change there (preserving their original), or
-    (c) duplicate the notebook under shared name and work collaboratively in the new one (only one person can edit at a time). 
+    1) message them and make change directly in their notebook, or
+    2) duplicate the notebook under your prefix/name, and make the change there (preserving their original), or
+    3) duplicate the notebook under shared name and work collaboratively in the new one (only one person can edit at a time). 
   - **Note:**
     1) Do **not** edit the same notebook at the same time, and
     2) (especially for (c), i.e. collaborative notebooks): **clear all outputs before committing** to reduce merge conflicts, this is generally done under **kernel -> restart and clear output**.
