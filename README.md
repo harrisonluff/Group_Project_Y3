@@ -128,7 +128,7 @@ This also gives 'repo_root' which can be used for saving cleaned data/outputs, e
 - If VS Code offers to enable auto-sync (auto-fetch/pull) - click **yes**. This helps prevent working on out of date dev branch. This does not auotamtically push your changes, you still choose when to commit and push.
 
 ## Setup:
-1) Create a GitHub account, and share username with group so you can be added to repo.
+1) Create a GitHub account, and share username with group so you can be added to repo. (Note: if you want access post-uni use personal email)
 2) Install Git (version control system used by GitHub). Default install options are fine.
 3) Within VS Code:
   - Version control icon on left vertical toolbar 
@@ -140,5 +140,6 @@ This also gives 'repo_root' which can be used for saving cleaned data/outputs, e
 5) Switch to dev branch:
   - After cloning make sure you are working on dev branch (not main).
   - In VS Code, click the branch name in bottom-left and select dev.
+6) Sign up for GitHub education: https://github.com/settings/education/benefits (so I can make repo private and keep permissions -> this means we have less concerns about data privacy if we get approved for data).
 
 **If there is a merge conflict, do not click buttons randomly. Tell the group which file has a conflict and we can resolve together. Ideally, as long as no one is working on the same notebook at the same time, we should be okay.**
