@@ -125,7 +125,7 @@ This also gives 'repo_root' which can be used for saving cleaned data/outputs, e
 - Always pull 'dev' **before starting work**, i.e. before opening/running notebooks (in order to get any updates, and not work on out of date branch).
 - Push to 'dev' (do not push to 'main'!). Use a short descriptive commit mesages (e.g. "Add regression for X", not "update"). 
 - If you make changes that might affect others (e.g. shared code, new version of cleaned data), notify the group.
-- If VS Code offers to enable auto-sync (auto-fetch/pull) - click **yes**. This helps prevent working on out of date dev branch. This does not auotamtically push your changes, you still choose when to commit and push.
+- If VS Code offers to enable auto-sync (auto-fetch/pull) - click **yes**. This helps prevent working on out of date dev branch. This does not automatically push your changes, you still choose when to commit and push.
 - The first time you commit code it should ask to add your email and username to Git. If so, use the private email address GitHub provides in your account rather than your own email, protects your email from being scraped from GitHub.
 
 ## Setup:
