@@ -58,7 +58,7 @@ This repo contains the raw data, cleaned data, reusable code, and notebooks for 
 ### 'notebooks/cleaning'
 - Notebooks for processing raw data to cleaned.
 - Within cleaning, recommended naming:
-  - '00_cleaning_<dataset>.ipynb'
+  - '00_cleaning_<dataset_1>.ipynb'
   - '01_cleaning_<dataset_2>.ipynb'
   - etc.
 - i.e. each index refers to a topic/dataset, if multiple files for that topic are needed can be extended to 00_00, 00_01 etc.
@@ -111,7 +111,7 @@ This relies on cloning the repo, such that .git/ folder exists at root. I think 
 
 After this code you can safely run: from src.paths import ...
 
-This also gives 'repo_root' which can be used for saving cleaned data/outputs, e.g. path for cleaned is '{repo_root}/cleaned'
+This also gives 'repo_root' which can be used for saving cleaned data/outputs, e.g. path for cleaned is '{str(repo_root)}/cleaned'
 
 ## Environment:
 - Should not be an issue ideally, but if we do get any issues of code not running / running differently, let me know and can sort out an enivronment specification.
