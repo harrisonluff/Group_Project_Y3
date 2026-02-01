@@ -1,3 +1,40 @@
+# =========================================================
+# Project-specific ignores (add to default Python .gitignore)
+# =========================================================
+
+# --- Jupyter / notebooks ---
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# --- VS Code ---
+.vscode/
+
+# --- OS junk ---
+.DS_Store
+Thumbs.db
+
+# --- Project outputs ---
+# Ignore everything in outputs/ ...
+outputs/*
+# ... but keep the final outputs folder tracked
+!outputs/final/
+# ... and keep files inside outputs/final/ tracked
+!outputs/final/**
+
+# Optional: keep folder structure even if empty
+!outputs/.gitkeep
+!outputs/final/.gitkeep
+
+# --- Local config / secrets (if you use them) ---
+.env
+.env.*
+*.local
+config/config.yaml
+
+# =========================================================
+# GitHub default python gitignore
+# =========================================================
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
